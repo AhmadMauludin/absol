@@ -1,0 +1,573 @@
+CRITICAL - 2026-04-06 05:05:52 --> ErrorException: Undefined variable $d
+[Method: GET, Route: /]
+in APPPATH\Views\dataabsen\index.php on line 2.
+ 1 APPPATH\Views\dataabsen\index.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $d', 'C:\\xampp\\htdocs\\absol\\app\\Views\\dataabsen\\index.php', 2)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\absol\\app\\Views\\dataabsen\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dataabsen/index', [], true)
+ 5 APPPATH\Controllers\DataAbsen.php(16): view('dataabsen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 05:06:57 --> ErrorException: Undefined variable $d
+[Method: GET, Route: /]
+in APPPATH\Views\dataabsen\index.php on line 2.
+ 1 APPPATH\Views\dataabsen\index.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $d', 'C:\\xampp\\htdocs\\absol\\app\\Views\\dataabsen\\index.php', 2)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\absol\\app\\Views\\dataabsen\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dataabsen/index', [], true)
+ 5 APPPATH\Controllers\DataAbsen.php(16): view('dataabsen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 05:06:58 --> ErrorException: Undefined variable $d
+[Method: GET, Route: dataabsen/detail/3]
+in APPPATH\Views\dataabsen\detail.php on line 2.
+ 1 APPPATH\Views\dataabsen\detail.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $d', 'C:\\xampp\\htdocs\\absol\\app\\Views\\dataabsen\\detail.php', 2)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\absol\\app\\Views\\dataabsen\\detail.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dataabsen/detail', [], true)
+ 5 APPPATH\Controllers\DataAbsen.php(63): view('dataabsen/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->detail('3')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 05:07:04 --> ErrorException: Undefined variable $d
+[Method: GET, Route: /]
+in APPPATH\Views\dataabsen\index.php on line 2.
+ 1 APPPATH\Views\dataabsen\index.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $d', 'C:\\xampp\\htdocs\\absol\\app\\Views\\dataabsen\\index.php', 2)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\absol\\app\\Views\\dataabsen\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dataabsen/index', [], true)
+ 5 APPPATH\Controllers\DataAbsen.php(16): view('dataabsen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 05:07:07 --> ErrorException: Undefined variable $d
+[Method: GET, Route: /]
+in APPPATH\Views\dataabsen\index.php on line 2.
+ 1 APPPATH\Views\dataabsen\index.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $d', 'C:\\xampp\\htdocs\\absol\\app\\Views\\dataabsen\\index.php', 2)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\absol\\app\\Views\\dataabsen\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dataabsen/index', [], true)
+ 5 APPPATH\Controllers\DataAbsen.php(16): view('dataabsen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 05:07:07 --> ErrorException: Undefined variable $d
+[Method: GET, Route: /]
+in APPPATH\Views\dataabsen\index.php on line 2.
+ 1 APPPATH\Views\dataabsen\index.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $d', 'C:\\xampp\\htdocs\\absol\\app\\Views\\dataabsen\\index.php', 2)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\absol\\app\\Views\\dataabsen\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dataabsen/index', [], true)
+ 5 APPPATH\Controllers\DataAbsen.php(16): view('dataabsen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 05:07:32 --> ErrorException: Undefined variable $d
+[Method: GET, Route: dataabsen/detail/3]
+in APPPATH\Views\dataabsen\detail.php on line 2.
+ 1 APPPATH\Views\dataabsen\detail.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $d', 'C:\\xampp\\htdocs\\absol\\app\\Views\\dataabsen\\detail.php', 2)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\absol\\app\\Views\\dataabsen\\detail.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dataabsen/detail', [], true)
+ 5 APPPATH\Controllers\DataAbsen.php(63): view('dataabsen/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->detail('3')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-04-06 05:17:08 --> Cannot delete or update a parent row: a foreign key constraint fails (`absol`.`tb_absen`, CONSTRAINT `tb_absen_ibfk_1` FOREIGN KEY (`id_dataabsen`) REFERENCES `tb_dataabsen` (`id_dataabsen`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'5\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN :id_dataabsen:', [...], false)
+ 5 SYSTEMPATH\Model.php(442): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1186): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\DataAbsen.php(69): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->delete('5')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 05:17:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`absol`.`tb_absen`, CONSTRAINT `tb_absen_ibfk_1` FOREIGN KEY (`id_dataabsen`) REFERENCES `tb_dataabsen` (`id_dataabsen`))
+[Method: GET, Route: dataabsen/delete/5]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN :id_dataabsen:', [...], false)
+ 2 SYSTEMPATH\Model.php(442): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1186): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\DataAbsen.php(69): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->delete('5')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 05:17:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`absol`.`tb_absen`, CONSTRAINT `tb_absen_ibfk_1` FOREIGN KEY (`id_dataabsen`) REFERENCES `tb_dataabsen` (`id_dataabsen`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'5\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN :id_dataabsen:', [...], false)
+ 4 SYSTEMPATH\Model.php(442): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1186): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\DataAbsen.php(69): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->delete('5')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 05:17:08 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`absol`.`tb_absen`, CONSTRAINT `tb_absen_ibfk_1` FOREIGN KEY (`id_dataabsen`) REFERENCES `tb_dataabsen` (`id_dataabsen`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'5\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN :id_dataabsen:', [...], false)
+ 5 SYSTEMPATH\Model.php(442): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1186): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\DataAbsen.php(69): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->delete('5')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-04-06 05:17:16 --> Cannot delete or update a parent row: a foreign key constraint fails (`absol`.`tb_absen`, CONSTRAINT `tb_absen_ibfk_1` FOREIGN KEY (`id_dataabsen`) REFERENCES `tb_dataabsen` (`id_dataabsen`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'3\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'3\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'3\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN :id_dataabsen:', [...], false)
+ 5 SYSTEMPATH\Model.php(442): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1186): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\DataAbsen.php(69): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->delete('3')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 05:17:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`absol`.`tb_absen`, CONSTRAINT `tb_absen_ibfk_1` FOREIGN KEY (`id_dataabsen`) REFERENCES `tb_dataabsen` (`id_dataabsen`))
+[Method: GET, Route: dataabsen/delete/3]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN :id_dataabsen:', [...], false)
+ 2 SYSTEMPATH\Model.php(442): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1186): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\DataAbsen.php(69): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->delete('3')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 05:17:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`absol`.`tb_absen`, CONSTRAINT `tb_absen_ibfk_1` FOREIGN KEY (`id_dataabsen`) REFERENCES `tb_dataabsen` (`id_dataabsen`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'3\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'3\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN :id_dataabsen:', [...], false)
+ 4 SYSTEMPATH\Model.php(442): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1186): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\DataAbsen.php(69): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->delete('3')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 05:17:16 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`absol`.`tb_absen`, CONSTRAINT `tb_absen_ibfk_1` FOREIGN KEY (`id_dataabsen`) REFERENCES `tb_dataabsen` (`id_dataabsen`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'3\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'3\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'3\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN :id_dataabsen:', [...], false)
+ 5 SYSTEMPATH\Model.php(442): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1186): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\DataAbsen.php(69): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->delete('3')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-04-06 05:17:20 --> Cannot delete or update a parent row: a foreign key constraint fails (`absol`.`tb_absen`, CONSTRAINT `tb_absen_ibfk_1` FOREIGN KEY (`id_dataabsen`) REFERENCES `tb_dataabsen` (`id_dataabsen`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN :id_dataabsen:', [...], false)
+ 5 SYSTEMPATH\Model.php(442): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1186): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\DataAbsen.php(69): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->delete('4')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 05:17:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`absol`.`tb_absen`, CONSTRAINT `tb_absen_ibfk_1` FOREIGN KEY (`id_dataabsen`) REFERENCES `tb_dataabsen` (`id_dataabsen`))
+[Method: GET, Route: dataabsen/delete/4]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN :id_dataabsen:', [...], false)
+ 2 SYSTEMPATH\Model.php(442): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1186): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\DataAbsen.php(69): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->delete('4')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 05:17:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`absol`.`tb_absen`, CONSTRAINT `tb_absen_ibfk_1` FOREIGN KEY (`id_dataabsen`) REFERENCES `tb_dataabsen` (`id_dataabsen`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'4\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN :id_dataabsen:', [...], false)
+ 4 SYSTEMPATH\Model.php(442): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1186): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\DataAbsen.php(69): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->delete('4')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 05:17:20 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`absol`.`tb_absen`, CONSTRAINT `tb_absen_ibfk_1` FOREIGN KEY (`id_dataabsen`) REFERENCES `tb_dataabsen` (`id_dataabsen`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN :id_dataabsen:', [...], false)
+ 5 SYSTEMPATH\Model.php(442): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1186): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\DataAbsen.php(69): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->delete('4')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-04-06 05:17:55 --> Cannot delete or update a parent row: a foreign key constraint fails (`absol`.`tb_absen`, CONSTRAINT `tb_absen_ibfk_1` FOREIGN KEY (`id_dataabsen`) REFERENCES `tb_dataabsen` (`id_dataabsen`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'3\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'3\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'3\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN :id_dataabsen:', [...], false)
+ 5 SYSTEMPATH\Model.php(442): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1186): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\DataAbsen.php(69): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->delete('3')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 05:17:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`absol`.`tb_absen`, CONSTRAINT `tb_absen_ibfk_1` FOREIGN KEY (`id_dataabsen`) REFERENCES `tb_dataabsen` (`id_dataabsen`))
+[Method: GET, Route: dataabsen/delete/3]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN :id_dataabsen:', [...], false)
+ 2 SYSTEMPATH\Model.php(442): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1186): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\DataAbsen.php(69): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->delete('3')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 05:17:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`absol`.`tb_absen`, CONSTRAINT `tb_absen_ibfk_1` FOREIGN KEY (`id_dataabsen`) REFERENCES `tb_dataabsen` (`id_dataabsen`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'3\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'3\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN :id_dataabsen:', [...], false)
+ 4 SYSTEMPATH\Model.php(442): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1186): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\DataAbsen.php(69): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->delete('3')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 05:17:55 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`absol`.`tb_absen`, CONSTRAINT `tb_absen_ibfk_1` FOREIGN KEY (`id_dataabsen`) REFERENCES `tb_dataabsen` (`id_dataabsen`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'3\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'3\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN (\'3\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_dataabsen`
+WHERE `id_dataabsen` IN :id_dataabsen:', [...], false)
+ 5 SYSTEMPATH\Model.php(442): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1186): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\DataAbsen.php(69): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->delete('3')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 12:43:20 --> ErrorException: Undefined array key "kelas"
+[Method: GET, Route: dataabsen/rekap/2026-04-06]
+in APPPATH\Views\dataabsen\rekap.php on line 41.
+ 1 APPPATH\Views\dataabsen\rekap.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kelas"', 'C:\\xampp\\htdocs\\absol\\app\\Views\\dataabsen\\rekap.php', 41)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\absol\\app\\Views\\dataabsen\\rekap.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dataabsen/rekap', [], true)
+ 5 APPPATH\Controllers\DataAbsen.php(113): view('dataabsen/rekap', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->rekap('2026-04-06')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 13:35:17 --> ErrorException: Undefined array key "id_dataabsen"
+[Method: GET, Route: /]
+in APPPATH\Views\dataabsen\index.php on line 58.
+ 1 APPPATH\Views\dataabsen\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_dataabsen"', 'C:\\xampp\\htdocs\\absol\\app\\Views\\dataabsen\\index.php', 58)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\absol\\app\\Views\\dataabsen\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dataabsen/index', [], true)
+ 5 APPPATH\Controllers\DataAbsen.php(36): view('dataabsen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 13:36:55 --> ErrorException: Undefined variable $d
+[Method: GET, Route: /]
+in APPPATH\Views\dataabsen\index.php on line 58.
+ 1 APPPATH\Views\dataabsen\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $d', 'C:\\xampp\\htdocs\\absol\\app\\Views\\dataabsen\\index.php', 58)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\absol\\app\\Views\\dataabsen\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dataabsen/index', [], true)
+ 5 APPPATH\Controllers\DataAbsen.php(36): view('dataabsen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 13:38:29 --> ErrorException: Undefined variable $d
+[Method: GET, Route: /]
+in APPPATH\Views\dataabsen\index.php on line 58.
+ 1 APPPATH\Views\dataabsen\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $d', 'C:\\xampp\\htdocs\\absol\\app\\Views\\dataabsen\\index.php', 58)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\absol\\app\\Views\\dataabsen\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dataabsen/index', [], true)
+ 5 APPPATH\Controllers\DataAbsen.php(37): view('dataabsen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 13:38:30 --> ErrorException: Undefined variable $d
+[Method: GET, Route: /]
+in APPPATH\Views\dataabsen\index.php on line 58.
+ 1 APPPATH\Views\dataabsen\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $d', 'C:\\xampp\\htdocs\\absol\\app\\Views\\dataabsen\\index.php', 58)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\absol\\app\\Views\\dataabsen\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dataabsen/index', [], true)
+ 5 APPPATH\Controllers\DataAbsen.php(37): view('dataabsen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-04-06 11:10:54 --> Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('
+            SELECT 
+            COUNT(*) total,
+            SUM(status=\'hadir\') hadir
+            FROM tb_absen
+            WHERE nis=\'122204\'
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT 
+            COUNT(*) total,
+            SUM(status=\'hadir\') hadir
+            FROM tb_absen
+            WHERE nis=\'122204\'
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT 
+            COUNT(*) total,
+            SUM(status=\'hadir\') hadir
+            FROM tb_absen
+            WHERE nis=\'122204\'
+        ')
+ 4 APPPATH\Controllers\Santri.php(49): CodeIgniter\Database\BaseConnection->query('
+            SELECT 
+            COUNT(*) total,
+            SUM(status=\'hadir\') hadir
+            FROM tb_absen
+            WHERE nis=\'122204\'
+        ')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Santri->detail('122204')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 11:10:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+[Method: GET, Route: santri/detail/122204]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 APPPATH\Controllers\Santri.php(49): CodeIgniter\Database\BaseConnection->query('
+            SELECT 
+            COUNT(*) total,
+            SUM(status=\'hadir\') hadir
+            FROM tb_absen
+            WHERE nis=\'122204\'
+        ')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Santri->detail('122204')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 11:10:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT 
+            COUNT(*) total,
+            SUM(status=\'hadir\') hadir
+            FROM tb_absen
+            WHERE nis=\'122204\'
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT 
+            COUNT(*) total,
+            SUM(status=\'hadir\') hadir
+            FROM tb_absen
+            WHERE nis=\'122204\'
+        ')
+ 3 APPPATH\Controllers\Santri.php(49): CodeIgniter\Database\BaseConnection->query('
+            SELECT 
+            COUNT(*) total,
+            SUM(status=\'hadir\') hadir
+            FROM tb_absen
+            WHERE nis=\'122204\'
+        ')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Santri->detail('122204')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 11:10:54 --> [Caused by] mysqli_sql_exception: Unknown column 'nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('
+            SELECT 
+            COUNT(*) total,
+            SUM(status=\'hadir\') hadir
+            FROM tb_absen
+            WHERE nis=\'122204\'
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT 
+            COUNT(*) total,
+            SUM(status=\'hadir\') hadir
+            FROM tb_absen
+            WHERE nis=\'122204\'
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT 
+            COUNT(*) total,
+            SUM(status=\'hadir\') hadir
+            FROM tb_absen
+            WHERE nis=\'122204\'
+        ')
+ 4 APPPATH\Controllers\Santri.php(49): CodeIgniter\Database\BaseConnection->query('
+            SELECT 
+            COUNT(*) total,
+            SUM(status=\'hadir\') hadir
+            FROM tb_absen
+            WHERE nis=\'122204\'
+        ')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Santri->detail('122204')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 11:18:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "santri/tambah.php"
+[Method: GET, Route: santri/tambah]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('santri/tambah.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('santri/tambah', [], true)
+ 3 APPPATH\Controllers\Santri.php(19): view('santri/tambah')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Santri->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
