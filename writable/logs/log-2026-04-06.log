@@ -571,3 +571,789 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
  7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
  8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 15:18:22 --> ErrorException: unlink(C:\xampp\htdocs\absol\writable\debugbar/debugbar_1775488279.946940.json): No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\absol\\writable\\debugbar/debugbar_1775488279.946940.json): No such file or directory', 'C:\\xampp\\htdocs\\absol\\system\\Debug\\Toolbar\\Collectors\\History.php', 82)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(82): unlink('C:\\xampp\\htdocs\\absol\\writable\\debugbar/debugbar_1775488279.946940.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(517): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1775488699.735088', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(496): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(325): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 15:39:53 --> ErrorException: Undefined variable $tanggal
+[Method: GET, Route: absen/tambah/10]
+in APPPATH\Views\absen\tambah.php on line 10.
+ 1 APPPATH\Views\absen\tambah.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggal', 'C:\\xampp\\htdocs\\absol\\app\\Views\\absen\\tambah.php', 10)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\absol\\app\\Views\\absen\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('absen/tambah', [], true)
+ 5 APPPATH\Controllers\Absen.php(11): view('absen/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Absen->tambah('10')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 16:18:38 --> ErrorException: Undefined array key "ijin"
+[Method: GET, Route: santri/detail/123101]
+in APPPATH\Views\santri\detail.php on line 8.
+ 1 APPPATH\Views\santri\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ijin"', 'C:\\xampp\\htdocs\\absol\\app\\Views\\santri\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\absol\\app\\Views\\santri\\detail.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('santri/detail', [], true)
+ 5 APPPATH\Controllers\Santri.php(122): view('santri/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Santri->detail('123101')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 16:19:25 --> ErrorException: Undefined array key "izin"
+[Method: GET, Route: santri/detail/123101]
+in APPPATH\Views\santri\detail.php on line 8.
+ 1 APPPATH\Views\santri\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "izin"', 'C:\\xampp\\htdocs\\absol\\app\\Views\\santri\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\absol\\app\\Views\\santri\\detail.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('santri/detail', [], true)
+ 5 APPPATH\Controllers\Santri.php(122): view('santri/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Santri->detail('123101')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 16:19:53 --> ErrorException: Undefined array key "ijin"
+[Method: GET, Route: santri/detail/123101]
+in APPPATH\Views\santri\detail.php on line 8.
+ 1 APPPATH\Views\santri\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ijin"', 'C:\\xampp\\htdocs\\absol\\app\\Views\\santri\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\absol\\app\\Views\\santri\\detail.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('santri/detail', [], true)
+ 5 APPPATH\Controllers\Santri.php(122): view('santri/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Santri->detail('123101')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-04-06 16:22:06 --> Unknown column 'a.nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 4 APPPATH\Controllers\Santri.php(86): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Santri->detail('123101')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 16:22:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'a.nis' in 'where clause'
+[Method: GET, Route: santri/detail/123101]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 APPPATH\Controllers\Santri.php(86): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Santri->detail('123101')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 16:22:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'a.nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 3 APPPATH\Controllers\Santri.php(86): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Santri->detail('123101')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 16:22:06 --> [Caused by] mysqli_sql_exception: Unknown column 'a.nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 4 APPPATH\Controllers\Santri.php(86): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Santri->detail('123101')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-04-06 16:22:46 --> Unknown column 'a.nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 4 APPPATH\Controllers\Santri.php(86): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Santri->detail('123101')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 16:22:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'a.nis' in 'where clause'
+[Method: GET, Route: santri/detail/123101]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 APPPATH\Controllers\Santri.php(86): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Santri->detail('123101')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 16:22:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'a.nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 3 APPPATH\Controllers\Santri.php(86): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Santri->detail('123101')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 16:22:46 --> [Caused by] mysqli_sql_exception: Unknown column 'a.nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 4 APPPATH\Controllers\Santri.php(86): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Santri->detail('123101')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-04-06 16:22:48 --> Unknown column 'a.nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 4 APPPATH\Controllers\Santri.php(86): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Santri->detail('123101')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 16:22:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'a.nis' in 'where clause'
+[Method: GET, Route: santri/detail/123101]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 APPPATH\Controllers\Santri.php(86): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Santri->detail('123101')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 16:22:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'a.nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 3 APPPATH\Controllers\Santri.php(86): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Santri->detail('123101')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 16:22:48 --> [Caused by] mysqli_sql_exception: Unknown column 'a.nis' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 4 APPPATH\Controllers\Santri.php(86): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            d.tanggal,
+            MAX(CASE WHEN d.waktu=\'shubuh\' THEN a.status END) as shubuh,
+            MAX(CASE WHEN d.waktu=\'dhuhur\' THEN a.status END) as dhuhur,
+            MAX(CASE WHEN d.waktu=\'ashar\' THEN a.status END) as ashar,
+            MAX(CASE WHEN d.waktu=\'maghrib\' THEN a.status END) as maghrib,
+            MAX(CASE WHEN d.waktu=\'isya\' THEN a.status END) as isya,
+            MAX(CASE WHEN d.waktu=\'lainnya\' THEN a.status END) as lainnya
+
+        FROM tb_absen a
+        JOIN tb_dataabsen d ON a.id_dataabsen = d.id_dataabsen
+        WHERE a.nis=\'123101\'
+        GROUP BY d.tanggal
+        ORDER BY d.tanggal DESC
+    ')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Santri->detail('123101')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 16:22:56 --> ErrorException: Undefined array key "ijin"
+[Method: GET, Route: santri/detail/123101]
+in APPPATH\Views\santri\detail.php on line 8.
+ 1 APPPATH\Views\santri\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ijin"', 'C:\\xampp\\htdocs\\absol\\app\\Views\\santri\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\absol\\app\\Views\\santri\\detail.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('santri/detail', [], true)
+ 5 APPPATH\Controllers\Santri.php(122): view('santri/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Santri->detail('123101')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 16:23:45 --> ErrorException: Undefined array key "alfa"
+[Method: GET, Route: santri/detail/123101]
+in APPPATH\Views\santri\detail.php on line 8.
+ 1 APPPATH\Views\santri\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "alfa"', 'C:\\xampp\\htdocs\\absol\\app\\Views\\santri\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\absol\\app\\Views\\santri\\detail.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('santri/detail', [], true)
+ 5 APPPATH\Controllers\Santri.php(122): view('santri/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Santri->detail('123101')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-06 16:23:56 --> ErrorException: Undefined array key "ijin"
+[Method: GET, Route: santri/detail/123101]
+in APPPATH\Views\santri\detail.php on line 90.
+ 1 APPPATH\Views\santri\detail.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ijin"', 'C:\\xampp\\htdocs\\absol\\app\\Views\\santri\\detail.php', 90)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\absol\\app\\Views\\santri\\detail.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('santri/detail', [], true)
+ 5 APPPATH\Controllers\Santri.php(122): view('santri/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Santri->detail('123101')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

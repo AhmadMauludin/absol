@@ -1,80 +1,94 @@
-<!DOCTYPE html>
-<html lang="id">
+<?= $this->extend('layouts/main') ?>
+<?= $this->section('content') ?>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Tambah Absen QR</title>
+<?php
+$hariIndonesia = [
+    'Sunday' => 'Minggu',
+    'Monday' => 'Senin',
+    'Tuesday' => 'Selasa',
+    'Wednesday' => 'Rabu',
+    'Thursday' => 'Kamis',
+    'Friday' => 'Jumat',
+    'Saturday' => 'Sabtu'
+];
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.min.css') ?>">
+$hari = $hariIndonesia[date('l', strtotime($dataabsen['tanggal']))];
+?>
 
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap-icons.css') ?>">
-</head>
+<div class="row justify-content-center">
+    <div class="col-md-7">
 
-<body class="bg-light">
+        <div class="card shadow-sm border-0">
 
-    <div class="container py-5">
+            <div class="card-header bg-primary text-white fw-bold">
+                <i class="bi bi-qr-code-scan"></i> Input Hasil Scan QRCode
+            </div>
 
-        <div class="row justify-content-center">
-            <div class="col-md-7">
+            <div class="card-body">
 
-                <div class="card shadow-sm border-0">
+                <div class="alert alert-light border mb-4">
 
-                    <div class="card-header bg-primary text-white fw-bold">
-                        <i class="bi bi-qr-code-scan"></i> Input Absensi QRCode
-                    </div>
+                    <div class="row">
 
-                    <div class="card-body">
+                        <div class="col-md-4">
+                            <strong>ID Absen</strong><br>
+                            <?= $id_dataabsen ?>
+                        </div>
 
-                        <form method="post" action="<?= site_url('/absen/simpan') ?>">
+                        <div class="col-md-4">
+                            <strong>Hari / Tanggal</strong><br>
+                            <?= $hari ?>, <?= date('d F Y', strtotime($dataabsen['tanggal'])) ?>
+                        </div>
 
-                            <input type="hidden" name="id_dataabsen" value="<?= $id_dataabsen ?>">
-
-                            <div class="mb-3">
-                                <label class="form-label fw-semibold">
-                                    Masukkan QRCode (1 baris = 1 santri)
-                                </label>
-
-                                <textarea
-                                    name="qrcode"
-                                    rows="10"
-                                    class="form-control"
-                                    placeholder="Contoh:
-12345_Ahmad
-12346_Ali
-12347_Hasan"
-                                    required></textarea>
-
-                                <div class="form-text">
-                                    Tempel hasil scan QR satu per satu dalam baris terpisah.
-                                </div>
-                            </div>
-
-                            <div class="d-flex justify-content-between">
-
-                                <a href="<?= site_url('/') ?>" class="btn btn-secondary">
-                                    <i class="bi bi-arrow-left"></i> Kembali
-                                </a>
-
-                                <button type="submit" class="btn btn-primary">
-                                    <i class="bi bi-save"></i> Simpan
-                                </button>
-
-                            </div>
-
-                        </form>
+                        <div class="col-md-4">
+                            <strong>Waktu</strong><br>
+                            <?= ucfirst($dataabsen['waktu']) ?>
+                        </div>
 
                     </div>
 
                 </div>
 
+                <form method="post" action="<?= site_url('/absen/simpan') ?>">
+
+                    <input type="hidden" name="id_dataabsen" value="<?= $id_dataabsen ?>">
+
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">
+                            Masukkan QRCode (1 baris = 1 santri)
+                        </label>
+
+                        <textarea
+                            name="qrcode"
+                            rows="5"
+                            class="form-control"
+                            placeholder="Contoh:
+12345-Ahmad
+12347-Hasan"
+                            required></textarea>
+
+
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+
+                        <a href="<?= site_url('/dataabsen/detail/' . $id_dataabsen) ?>" class="btn btn-secondary">
+                            <i class="bi bi-arrow-left"></i> Kembali
+                        </a>
+
+                        <button type="submit" class="btn btn-primary">
+                            <i class="bi bi-save"></i> Simpan
+                        </button>
+
+                    </div>
+
+                </form>
+
             </div>
+
         </div>
 
     </div>
+</div>
 
-    <script src="<?= base_url('assets/js/bootstrap.bundle.min.js') ?>"></script>
-</body>
-
-</html>
+<?= $this->endSection() ?>

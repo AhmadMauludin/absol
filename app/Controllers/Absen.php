@@ -8,7 +8,17 @@ class Absen extends BaseController
 {
     public function tambah($id_dataabsen)
     {
-        return view('absen/tambah', ['id_dataabsen' => $id_dataabsen]);
+        $db = \Config\Database::connect();
+
+        $dataabsen = $db->table('tb_dataabsen')
+            ->where('id_dataabsen', $id_dataabsen)
+            ->get()
+            ->getRowArray();
+
+        return view('absen/tambah', [
+            'id_dataabsen' => $id_dataabsen,
+            'dataabsen' => $dataabsen
+        ]);
     }
 
     public function simpan()

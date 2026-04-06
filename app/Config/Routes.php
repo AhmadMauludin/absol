@@ -24,3 +24,5 @@ $routes->get('/santri/edit/(:any)', 'Santri::edit/$1');
 $routes->post('/santri/update/(:any)', 'Santri::update/$1');
 $routes->get('/santri/hapus/(:any)', 'Santri::hapus/$1');
 $routes->get('/santri/detail/(:any)', 'Santri::detail/$1');
+
+$routes->get('backup', 'Backup::database');
