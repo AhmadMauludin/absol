@@ -3,7 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
+
+    <!-- WAJIB untuk responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Data Absensi</title>
+
     <link rel="shortcut icon" href="<?= base_url('assets/images/icon.png') ?>" type="image/x-icon">
 
     <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.min.css') ?>">
@@ -27,23 +32,48 @@
             border-radius: 12px;
             font-weight: 500;
         }
+
+        /* RESPONSIVE MOBILE */
+        @media (max-width: 768px) {
+
+            .topbar {
+                padding: 15px;
+            }
+
+            .topbar h4 {
+                font-size: 20px;
+                text-align: center;
+                width: 100%;
+            }
+
+            .menu-wrapper {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .menu-btn {
+                width: 100%;
+            }
+        }
     </style>
 
 </head>
 
 <body>
 
-    <div class="container py-4">
+    <div class="container-fluid py-3 px-3 px-md-4">
 
         <div class="topbar mb-4">
 
-            <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
 
                 <h4 class="fw-bold text-primary mb-0">
                     <i class="bi bi-calendar-check-fill"></i> Absol
                 </h4>
 
-                <div class="d-flex gap-2">
+                <div class="menu-wrapper d-flex flex-column flex-md-row gap-2">
 
                     <a href="<?= site_url('/') ?>" class="btn btn-primary menu-btn">
                         <i class="bi bi-clipboard-check"></i> Absen
