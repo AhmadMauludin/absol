@@ -31,7 +31,7 @@
             </div>
             <div class="col-md-3 text-end">
                 <a href="<?= site_url('/absen/tambah/') . $id_dataabsen ?>" class="btn btn-primary">
-                    <i class="bi bi-plus-circle"></i> Upload Hasil Scan QRCode
+                    <i class="bi bi-plus-circle"></i> Upload Hasil Scan
                 </a>
             </div>
         </div>

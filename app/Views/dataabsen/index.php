@@ -7,10 +7,6 @@
         <form method="get" action="<?= site_url('dataabsen') ?>" class="row g-2 align-items-center">
 
             <div class="col-auto">
-                <label class="fw-bold">Pilih Tanggal:</label>
-            </div>
-
-            <div class="col-auto">
                 <input type="date" name="tanggal" class="form-control"
                     value="<?= $tanggalDipilih ?>">
             </div>
@@ -21,10 +17,9 @@
                 </button>
             </div>
 
-            <div class="col-auto">
-
+            <div class="col text-end">
                 <a href="<?= site_url('dataabsen/tambah') ?>" class="btn btn-success">
-                    <i class="bi bi-plus-circle"></i> Tambah Absen
+                    <i class="bi bi-plus-circle"></i> Absen Baru
                 </a>
             </div>
         </form>
@@ -86,6 +81,11 @@ $tanggalAktif = '';
 
                 <a href="<?= site_url('/dataabsen/rekap/' . $r['tanggal']) ?>" class="btn btn-sm btn-light">
                     <i class="bi bi-bar-chart"></i> Rekap
+                </a>
+
+                <a href="<?= base_url('dataabsen/kirim-whatsapp/' . $r['tanggal']) ?>"
+                    class="btn btn-success" target="_blank">
+                    <i class="bi bi-whatsapp"></i> Kirim
                 </a>
 
             </div>

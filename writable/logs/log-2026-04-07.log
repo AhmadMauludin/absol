@@ -1,0 +1,133 @@
+ERROR - 2026-04-07 06:55:06 --> Unknown column 'tb_dataabsen.status' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `tb_santri`.`nama`, `tb_santri`.`asrama`, COUNT(tb_dataabsen.id_dataabsen) as jumlah_alfa
+FROM `tb_dataabsen`
+JOIN `tb_santri` ON `tb_santri`.`nis` = `tb_dataabsen`.`nis`
+WHERE `tb_dataabsen`.`tanggal` = \'2026-04-07\'
+AND `tb_dataabsen`.`status` = \'A\'
+GROUP BY `tb_santri`.`nis`
+HAVING `jumlah_alfa` > 0
+ORDER BY `tb_santri`.`asrama` ASC, `tb_santri`.`nama` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_santri`.`nama`, `tb_santri`.`asrama`, COUNT(tb_dataabsen.id_dataabsen) as jumlah_alfa
+FROM `tb_dataabsen`
+JOIN `tb_santri` ON `tb_santri`.`nis` = `tb_dataabsen`.`nis`
+WHERE `tb_dataabsen`.`tanggal` = \'2026-04-07\'
+AND `tb_dataabsen`.`status` = \'A\'
+GROUP BY `tb_santri`.`nis`
+HAVING `jumlah_alfa` > 0
+ORDER BY `tb_santri`.`asrama` ASC, `tb_santri`.`nama` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_santri`.`nama`, `tb_santri`.`asrama`, COUNT(tb_dataabsen.id_dataabsen) as jumlah_alfa
+FROM `tb_dataabsen`
+JOIN `tb_santri` ON `tb_santri`.`nis` = `tb_dataabsen`.`nis`
+WHERE `tb_dataabsen`.`tanggal` = \'2026-04-07\'
+AND `tb_dataabsen`.`status` = \'A\'
+GROUP BY `tb_santri`.`nis`
+HAVING `jumlah_alfa` > 0
+ORDER BY `tb_santri`.`asrama` ASC, `tb_santri`.`nama` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tb_santri`.`nama`, `tb_santri`.`asrama`, COUNT(tb_dataabsen.id_dataabsen) as jumlah_alfa
+FROM `tb_dataabsen`
+JOIN `tb_santri` ON `tb_santri`.`nis` = `tb_dataabsen`.`nis`
+WHERE `tb_dataabsen`.`tanggal` = :tb_dataabsen.tanggal:
+AND `tb_dataabsen`.`status` = :tb_dataabsen.status:
+GROUP BY `tb_santri`.`nis`
+HAVING `jumlah_alfa` > :jumlah_alfa:
+ORDER BY `tb_santri`.`asrama` ASC, `tb_santri`.`nama` ASC', [...], false)
+ 5 APPPATH\Controllers\DataAbsen.php(157): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->kirimWhatsapp('2026-04-07')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-07 06:55:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tb_dataabsen.status' in 'where clause'
+[Method: GET, Route: dataabsen/kirim-whatsapp/2026-04-07]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tb_santri`.`nama`, `tb_santri`.`asrama`, COUNT(tb_dataabsen.id_dataabsen) as jumlah_alfa
+FROM `tb_dataabsen`
+JOIN `tb_santri` ON `tb_santri`.`nis` = `tb_dataabsen`.`nis`
+WHERE `tb_dataabsen`.`tanggal` = :tb_dataabsen.tanggal:
+AND `tb_dataabsen`.`status` = :tb_dataabsen.status:
+GROUP BY `tb_santri`.`nis`
+HAVING `jumlah_alfa` > :jumlah_alfa:
+ORDER BY `tb_santri`.`asrama` ASC, `tb_santri`.`nama` ASC', [...], false)
+ 2 APPPATH\Controllers\DataAbsen.php(157): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->kirimWhatsapp('2026-04-07')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-07 06:55:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tb_dataabsen.status' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_santri`.`nama`, `tb_santri`.`asrama`, COUNT(tb_dataabsen.id_dataabsen) as jumlah_alfa
+FROM `tb_dataabsen`
+JOIN `tb_santri` ON `tb_santri`.`nis` = `tb_dataabsen`.`nis`
+WHERE `tb_dataabsen`.`tanggal` = \'2026-04-07\'
+AND `tb_dataabsen`.`status` = \'A\'
+GROUP BY `tb_santri`.`nis`
+HAVING `jumlah_alfa` > 0
+ORDER BY `tb_santri`.`asrama` ASC, `tb_santri`.`nama` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_santri`.`nama`, `tb_santri`.`asrama`, COUNT(tb_dataabsen.id_dataabsen) as jumlah_alfa
+FROM `tb_dataabsen`
+JOIN `tb_santri` ON `tb_santri`.`nis` = `tb_dataabsen`.`nis`
+WHERE `tb_dataabsen`.`tanggal` = \'2026-04-07\'
+AND `tb_dataabsen`.`status` = \'A\'
+GROUP BY `tb_santri`.`nis`
+HAVING `jumlah_alfa` > 0
+ORDER BY `tb_santri`.`asrama` ASC, `tb_santri`.`nama` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tb_santri`.`nama`, `tb_santri`.`asrama`, COUNT(tb_dataabsen.id_dataabsen) as jumlah_alfa
+FROM `tb_dataabsen`
+JOIN `tb_santri` ON `tb_santri`.`nis` = `tb_dataabsen`.`nis`
+WHERE `tb_dataabsen`.`tanggal` = :tb_dataabsen.tanggal:
+AND `tb_dataabsen`.`status` = :tb_dataabsen.status:
+GROUP BY `tb_santri`.`nis`
+HAVING `jumlah_alfa` > :jumlah_alfa:
+ORDER BY `tb_santri`.`asrama` ASC, `tb_santri`.`nama` ASC', [...], false)
+ 4 APPPATH\Controllers\DataAbsen.php(157): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->kirimWhatsapp('2026-04-07')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-07 06:55:06 --> [Caused by] mysqli_sql_exception: Unknown column 'tb_dataabsen.status' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `tb_santri`.`nama`, `tb_santri`.`asrama`, COUNT(tb_dataabsen.id_dataabsen) as jumlah_alfa
+FROM `tb_dataabsen`
+JOIN `tb_santri` ON `tb_santri`.`nis` = `tb_dataabsen`.`nis`
+WHERE `tb_dataabsen`.`tanggal` = \'2026-04-07\'
+AND `tb_dataabsen`.`status` = \'A\'
+GROUP BY `tb_santri`.`nis`
+HAVING `jumlah_alfa` > 0
+ORDER BY `tb_santri`.`asrama` ASC, `tb_santri`.`nama` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_santri`.`nama`, `tb_santri`.`asrama`, COUNT(tb_dataabsen.id_dataabsen) as jumlah_alfa
+FROM `tb_dataabsen`
+JOIN `tb_santri` ON `tb_santri`.`nis` = `tb_dataabsen`.`nis`
+WHERE `tb_dataabsen`.`tanggal` = \'2026-04-07\'
+AND `tb_dataabsen`.`status` = \'A\'
+GROUP BY `tb_santri`.`nis`
+HAVING `jumlah_alfa` > 0
+ORDER BY `tb_santri`.`asrama` ASC, `tb_santri`.`nama` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_santri`.`nama`, `tb_santri`.`asrama`, COUNT(tb_dataabsen.id_dataabsen) as jumlah_alfa
+FROM `tb_dataabsen`
+JOIN `tb_santri` ON `tb_santri`.`nis` = `tb_dataabsen`.`nis`
+WHERE `tb_dataabsen`.`tanggal` = \'2026-04-07\'
+AND `tb_dataabsen`.`status` = \'A\'
+GROUP BY `tb_santri`.`nis`
+HAVING `jumlah_alfa` > 0
+ORDER BY `tb_santri`.`asrama` ASC, `tb_santri`.`nama` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tb_santri`.`nama`, `tb_santri`.`asrama`, COUNT(tb_dataabsen.id_dataabsen) as jumlah_alfa
+FROM `tb_dataabsen`
+JOIN `tb_santri` ON `tb_santri`.`nis` = `tb_dataabsen`.`nis`
+WHERE `tb_dataabsen`.`tanggal` = :tb_dataabsen.tanggal:
+AND `tb_dataabsen`.`status` = :tb_dataabsen.status:
+GROUP BY `tb_santri`.`nis`
+HAVING `jumlah_alfa` > :jumlah_alfa:
+ORDER BY `tb_santri`.`asrama` ASC, `tb_santri`.`nama` ASC', [...], false)
+ 5 APPPATH\Controllers\DataAbsen.php(157): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DataAbsen->kirimWhatsapp('2026-04-07')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAbsen))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

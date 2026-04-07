@@ -26,3 +26,4 @@ $routes->get('/santri/hapus/(:any)', 'Santri::hapus/$1');
 $routes->get('/santri/detail/(:any)', 'Santri::detail/$1');
 
 $routes->get('backup', 'Backup::database');
+$routes->get('dataabsen/kirim-whatsapp/(:any)', 'DataAbsen::kirimWhatsapp/$1');

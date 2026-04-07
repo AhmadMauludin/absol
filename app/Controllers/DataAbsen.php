@@ -139,4 +139,58 @@ class DataAbsen extends BaseController
 
         return view('dataabsen/rekap', $data);
     }
+
+    public function kirimWhatsapp($tanggal)
+    {
+        $db = \Config\Database::connect();
+
+        $builder = $db->table('tb_absen');
+        $builder->select('tb_santri.nama, tb_santri.asrama, COUNT(tb_absen.id_absen) as jumlah_alfa');
+        $builder->join('tb_dataabsen', 'tb_dataabsen.id_dataabsen = tb_absen.id_dataabsen');
+        $builder->join('tb_santri', 'tb_santri.qrcode = tb_absen.qrcode');
+
+        $builder->where('tb_dataabsen.tanggal', $tanggal);
+        $builder->where('tb_absen.status', 'alfa');
+
+        $builder->groupBy('tb_santri.nis');
+        $builder->having('jumlah_alfa >', 0);
+
+        $builder->orderBy('tb_santri.asrama', 'ASC');
+        $builder->orderBy('tb_santri.nama', 'ASC');
+
+        $data = $builder->get()->getResult();
+
+        // Nama hari Indonesia
+        $hari = [
+            'Sunday' => 'Minggu',
+            'Monday' => 'Senin',
+            'Tuesday' => 'Selasa',
+            'Wednesday' => 'Rabu',
+            'Thursday' => 'Kamis',
+            'Friday' => 'Jumat',
+            'Saturday' => 'Sabtu'
+        ];
+
+        $namaHari = $hari[date('l', strtotime($tanggal))];
+
+        $pesan = "*REKAP ALFA SHOLAT*\n";
+        $pesan .= $namaHari . ", " . date('d-m-Y', strtotime($tanggal)) . "\n";
+
+        $asramaAktif = '';
+
+        foreach ($data as $row) {
+
+            if ($asramaAktif != $row->asrama) {
+                $asramaAktif = $row->asrama;
+                $pesan .= "\n*ASRAMA " . strtoupper($row->asrama) . "*\n";
+            }
+
+            $pesan .= $row->nama . " - " . $row->jumlah_alfa . "\n";
+        }
+        $pesan .= "\nDikirim dari *Absol*\n";
+
+        $pesanEncoded = urlencode($pesan);
+
+        return redirect()->to("https://wa.me/?text={$pesanEncoded}");
+    }
 }
