@@ -70,7 +70,7 @@
             <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
 
                 <h4 class="fw-bold text-primary mb-0">
-                    Absol
+                    عبصال
                 </h4>
 
                 <div class="menu-wrapper d-flex flex-column flex-md-row gap-2">
